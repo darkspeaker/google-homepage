@@ -55,9 +55,11 @@ select {
 a{
 	text-decoration: none;
 }
+html, body{
+	height: 100%;
+}
 body {
   font-family: Arial, sans-serif;
-  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -100,7 +102,7 @@ body {
 }
 .search{
 	width: 100%;
-	margin-top: 20vh;
+	margin-top: 16vh;
 	flex: 1 1 auto;
 }
 .search-body{
@@ -215,10 +217,10 @@ body {
 	display: flex;
 }
 .footer__navigation .first{
-	margin-left: 20px;
+	margin-left: 30px;
 }
 .footer__navigation .second{
-	margin-right: 20px;
+	margin-right: 30px;
 	display: flex;
 	align-items: flex-end;
 }
