@@ -33,6 +33,12 @@ li {
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
+a{
+	color: inherit;
+}
+a:hover{
+	text-decoration: underline;
+}
 img {
   max-width: 100%;
   display: block;
@@ -91,4 +97,97 @@ body {
 	height: 30px;
 	border-radius: 50px;
 	cursor: pointer;
+}
+.search{
+	width: 100%;
+	margin-top: 20vh;
+}
+.search-body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.search__logo{
+	margin-bottom: 25px;
+}
+.wrap__input{
+	width: 584px;
+	height: 44px;
+	border-radius: 24px;
+	border: 2px solid rgb(238, 233, 233);
+	display: flex;
+	align-items: center;
+	padding: 2px 0px 0px 15px
+}
+.wrap__input:hover{
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-input{
+	height: 35px;
+	width: 100%;
+	outline: none;
+	border: none!important;
+	font-size: 16px;
+}
+.search__icon{
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	
+}
+.search__icon .search__btn,
+.search__icon img{
+	display: block;
+    height: 100%;
+	width: 100%;
+	color: #9AA0A6;
+}
+.search-item__wrap{
+	color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+}
+.micro-item__wrap{
+	height: 100%;
+	padding: 5px 0px;
+}
+.micro__btn{
+	height: 24px;
+    width: 24px;
+	vertical-align: middle;
+}
+.search-button__body{
+	margin-top: 30px;
+}
+.button{
+	background-color: #f2f2f2;
+	outline: none;
+	border: none;
+	padding: 5px 15px;
+	color: #5F6368;
+	cursor: pointer;
+	border: 1px solid transparent;
+	margin-right: 15px;
+	font-size: 14px;
+}
+.button:last-child{
+	margin-right: 0;
+}
+.button a{
+	text-decoration: none;
+}
+.button:hover{
+	border: 1px solid rgb(193, 203, 212);
+}
+.search-change__lang{
+	margin-top: 25px;
+}
+.change__lang a{
+	color: #1a0dab;
+}
+.change__lang{
+	font-size: 13px;
 }
