@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+ul[class],
+ol[class] {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ul[class],
+ol[class],
+li {
+  list-style: none;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+article > * + * {
+  margin-top: 1em;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+a{
+	text-decoration: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+.header{
+	padding: 15px 30px 0px 0px;
+}
+.navigation{
+	float: right;
+}
+.navigation ul{
+	display: flex;
+	align-items: center;
+}
+.apps-wrap__icon{
+	width: 17px;
+	height: 17px;
+	color: red;
+	cursor: pointer;
+}
+.navigation__link{
+	margin-right: 20px;
+}
+.navigation__link:last-child{
+	margin-right: 0;
+}
+.navigation__link a{
+	font-size: 13px;
+	color: #524f4f;
+	line-height: 24px;
+}
+.navigation__link a:hover{
+	text-decoration: underline;
+}
+.navigation .logo img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	cursor: pointer;
+}
